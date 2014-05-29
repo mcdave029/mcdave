@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.18'
 gem 'jquery-rails'
+gem 'execjs'
+gem 'therubyracer'
 
 group :production do
 	gem 'pg'
