@@ -8,7 +8,10 @@ $navbar-height : 40px; /*declare variables in less*/
 body{
 	padding-top:60px;
 }
-
+nav{
+	padding-left: 30px;
+	padding-right: 30px;
+}
 .footer {
 	position:fixed;
 	left:0px;
