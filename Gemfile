@@ -3,8 +3,13 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.18'
 gem 'jquery-rails'
 gem 'execjs'
-gem 'therubyracer'
 gem 'bootstrap-sass', '~> 3.1.1'
+gem 'devise'
+gem 'simple_form'
+gem 'therubyracer', :platform => :ruby
+gem 'less-rails'
+
+gem 'bootstrap-on-rails'
 
 group :production do
 	gem 'pg'

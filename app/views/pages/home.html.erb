@@ -1,9 +1,14 @@
+<% if user_signed_in? %>
+
+	<h1>You are logged in!</h1>
+<% else %>
 <div class="jumbotron">
 	<h1>You found home!</h1>
 	<p>
 	<%= link_to "Google it!","https://www.google.com" %>
 	</p>
 	<p>
-	<%= link_to "Sign Up!","#" , class: "btn btn-primary" %>
+	<%= link_to "Sign Up!", new_user_registration_path , class: "btn btn-primary" %>
 	</p>
 </div>
+<% end %>
